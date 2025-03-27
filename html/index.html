@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Top Banner -->
+        <div class="top-banner">
+            <img src="../images/recipes.jpeg" alt="Recipe Banner" style="width: 800px; height: 600px;">
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="bottom">
+            <!-- Left: Ingredients -->
+            <div class="left">
+                <h2>Select Ingredients</h2>
+                <form id="ingredient-form">
+                    <div class="ingredient-list">
+                        <label><input type="checkbox" name="ingredient" value="tomato"> Tomato</label>
+                        <label><input type="checkbox" name="ingredient" value="cheese"> Cheese</label>
+                        <label><input type="checkbox" name="ingredient" value="pasta"> Pasta</label>
+                        <label><input type="checkbox" name="ingredient" value="chicken"> Chicken</label>
+                        <label><input type="checkbox" name="ingredient" value="spinach"> Spinach</label>
+                        <label><input type="checkbox" name="ingredient" value="garlic"> Garlic</label>
+                    </div>
+                    <button type="button" id="submit-btn">Find Recipes</button>
+                </form>
+            </div>
+
+            <!-- Right: Recipes -->
+            <div class="right">
+                <h2>Recipes You Can Make</h2>
+                <div id="recipe-results">
+                    <!-- Recipes will appear here dynamically -->
+                    <p>Select ingredients and click "Find Recipes" to see results.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
