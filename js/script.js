@@ -5,22 +5,46 @@ document.addEventListener('DOMContentLoaded', function() {
     // Recipe database (now with image URLs and links)
     const recipes = [
         {
-            name: "Margherita Pizza",
-            ingredients: ["tomato", "cheese"],
-            link: "pizza.html",
-            image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&auto=format"
+            name: "Tresleches",
+            ingredients: ["All purpose flour", "Baking powder", "Salt", "Egg", "Granulated sugar", "Milk", "Vanilla"],
+            link: "tresleches.html",
+            image: "../images/tresleches.jpeg"
         },
         {
-            name: "Pasta Alfredo",
-            ingredients: ["pasta", "cheese", "garlic"],
-            link: "pasta.html",
-            image: "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=400&auto=format"
+            name: "Lasagna",
+            ingredients: ["Lasagna noodles", "Garlic", "Pasta sauce", "Mozzarella cheese", "Parmesan cheese", "Salt", "Onions", "Tomato paste", "Italian seasoning", "Cottage cheese", "Parsley", "Egg"],
+            link: "lasagna.html",
+            image: "../images/lasagna.jpeg"
         },
         {
-            name: "Spinach Pasta",
-            ingredients: ["pasta", "spinach", "garlic"],
-            link: "spinach-pasta.html",
-            image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&auto=format"
+            name: "Brownies",
+            ingredients: ["Granulated sugar", "All purpose flour", "Cocoa powder", "Powdered sugar", "Chocolate chips", "Salt", "Egg", "Canola oil", "Vanilla"],
+            link: "Brownies.html",
+            image: "../images/brownies.png"
+        },
+        {
+            name: "Jalapeno Popper Quesadillas",
+            ingredients: ["Flour tortillas", "Jalapenos", "Cream cheese", "Mozzarella cheese", "Monterey Jack cheese", "Garlic powder", "Onion powder", "Kosher salt", "Pepper"],
+            link: "Jalapeno Popper Quesadillas.html",
+            image: "../images/Jalapeno Popper Quesadillas.jpeg"
+        },
+        {
+            name: "Pavlova",
+            ingredients: ["White sugar", "Cornstarch", "Egg", "Lemon Juice", "Heavy whipping cream", "Granulated sugar", "Strawberries"],
+            link: "Pavlova.html",
+            image: "../images/pavlova.jpeg"
+        },
+        {
+            name: "Potato Roses",
+            ingredients: ["Potatoes", "Garlic", "Butter", "Kosher salt", "Pepper", "Cayenne pepper"],
+            link: "Potato Roses.html",
+            image: "../images/potato roses.jpeg"
+        },
+        {
+            name: "Creme Brulee",
+            ingredients: ["Egg", "White sugar", "Vanilla", "Heavy whipping cream", "Brown sugar"],
+            link: "Creme Brulee.html",
+            image: "../images/Creme Brulee.jpeg"
         }
     ];
 
