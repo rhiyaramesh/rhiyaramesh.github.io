@@ -104,6 +104,13 @@ button {
             text-align: left;
             line-height: 1.25;
         }
+        .name-description {
+            font-family: 'Helvetica', sans-serif;
+            font-size: 20px;
+            color: #333; /* Dark gray */
+            text-align: justify;
+            line-height: 1.5;
+        }
 
 button:hover {
     background-color: #45a049;
@@ -232,16 +239,19 @@ img {
       align-items: center;
       padding: 10px 0;
     }
-    /* Navigation links */
-    .navbar a {
-      color: #333;
-      text-decoration: none;
-      padding: 14px 20px;
-      font-size: 24px;
-      font-weight: bold;
-    }
-    /* Hover effect */
-    .navbar a:hover {
-      background-color: #ffe4e1;
-      border-radius: 8px;
-    }
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 14px 20px;
+  display: inline-block;
+  transition: 0.3s; /* smooth animation */
+}
+
+/* Hover effect */
+.navbar a:hover {
+  background-color: #ffe4e1;
+  color: #ff69b4; /* darker pink text */
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ffb6c1, 0 0 20px #ffb6c1; /* soft glow */
+  transform: scale(1.05); /* little zoom */
+}
