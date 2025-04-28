@@ -60,31 +60,31 @@ button {
         .ingredients-list li {
             margin-bottom: 10px; /* Space between items */
             font-size: 20px;
-            font-family: Times New Roman, sans-serif;
+            font-family: Helvetica, sans-serif;
             text-align: center;
         }
 
         /* Custom bullet icon */
         .ingredients-list li::before {
             content: "\f787"; /* Font Awesome icon code */
-            font-family: "Font Awesome 5 Free"; /* Font Awesome font */
+            font-family: "Helvetica"; /* Font Awesome font */
             font-weight: 900; /* Required for solid icons */
             margin-right: 10px; /* Space between icon and text */
             color: #000000; /* Icon color */
         }
         .description {
-            font-family: 'Times New Roman', sans-serif;
+            font-family: 'Helvetica', sans-serif;
             font-size: 20px;
             color: #333; /* Dark gray */
             text-align: center;
             line-height: 1.5;
         }
         .recipe_instructions {
-            font-family: 'Times New Roman', sans-serif;
+            font-family: 'Helvetica', sans-serif;
             font-size: 20px;
             color: #333; /* Dark gray */
             text-align: left;
-            line-height: 1.0;
+            line-height: 1.25;
         }
 
 button:hover {
@@ -127,7 +127,7 @@ button:hover {
 }
 
 .right {
-    background-color: #ffccbc;
+    background-color: #f0f0f0;
 }
 /* Bottom Section (Split into Left & Right) */
 .bottom-section {
@@ -205,3 +205,25 @@ img {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
 }
+/* Top navigation bar */
+    .navbar {
+      background-color: #F3CACC; /* Light pink background */
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 0;
+    }
+    /* Navigation links */
+    .navbar a {
+      color: #333;
+      text-decoration: none;
+      padding: 14px 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    /* Hover effect */
+    .navbar a:hover {
+      background-color: #ffe4e1;
+      border-radius: 8px;
+    }

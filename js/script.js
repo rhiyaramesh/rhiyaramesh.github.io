@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const recipes = [
         {
             name: "Tresleches",
-            ingredients: ["All purpose flour", "Baking powder", "Salt", "Egg", "Granulated sugar", "Milk", "Vanilla"],
+            ingredients: ["All purpose flour", "Baking powder", "Salt", "Egg", "Granulated sugar", "Milk", "Vanilla", "Evaporated milk", "Condensed milk", "Cinnamon"],
             link: "tresleches.html",
             image: "../images/tresleches.jpeg"
         },
@@ -45,6 +45,48 @@ document.addEventListener('DOMContentLoaded', function() {
             ingredients: ["Egg", "White sugar", "Vanilla", "Heavy whipping cream", "Brown sugar"],
             link: "Creme Brulee.html",
             image: "../images/Creme Brulee.jpeg"
+        },
+        {
+            name: "Salad",
+            ingredients: ["Lettuce", "Mixed Greens", "Carrots", "Basil/herbs", "Olive oil", "Lemon Juice", "Honey/maple syrup", "Pepper", "Parmesan cheese"],
+            link: "Salad.html",
+            image: "../images/salad.jpeg"
+        },
+        {
+            name: "Cheese Cake",
+            ingredients: ["Graham crackers", "Granulated sugar", "Butter", "Cream cheese", "Sour cream", "Vanilla", "Lemon Juice", "Egg"],
+            link: "CheeseCake.html",
+            image: "../images/Cheesecake.jpeg"
+        },
+        {
+            name: "Mozzarella Sticks",
+            ingredients: ["Panko/Breadcrumbs", "Italian seasoning", "Salt", "All purpose flour", "Egg", "Mozzarella cheese", "Vegetable oil"],
+            link: "MozzarellaSticks.html",
+            image: "../images/MozzarellaSticks.jpeg"
+        },
+        {
+            name: "Macaroni and cheese",
+            ingredients: ["Macaroni elbows", "Butter", "All purpose flour", "Onion powder", "Milk", "Hot sauce", "Salt", "Cheddar cheese"],
+            link: "Macaroni and cheese.html",
+            image: "../images/MacaroniAndCheese.jpeg"
+        },
+        {
+            name: "Ice Cream",
+            ingredients: ["Vanilla", "Half and Half", "Heavy whipping cream", "White sugar", "Egg"],
+            link: "Ice Cream.html",
+            image: "../images/IceCream.jpeg"
+        },
+        {
+            name: "Churros",
+            ingredients: ["Granulated sugar", "Salt", "Vegetable oil", "All purpose flour", "Cinnamon"],
+            link: "Churros.html",
+            image: "../images/Churros.jpeg"
+        },
+        {
+            name: "Flan",
+            ingredients: ["Granulated sugar", "Condensed milk", "Evaporated milk", "Egg", "Vanilla"],
+            link: "Flan.html",
+            image: "../images/Flan.jpeg"
         }
     ];
 
