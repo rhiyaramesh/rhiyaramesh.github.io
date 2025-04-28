@@ -1,3 +1,9 @@
+function clearCheckboxes() {
+  const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+  checkboxes.forEach(function(checkbox) {
+    checkbox.checked = false;
+  });
+}
 document.addEventListener('DOMContentLoaded', function() {
     const submitBtn = document.getElementById('submit-btn');
     const recipeResults = document.getElementById('recipe-results');
@@ -96,6 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ).map(checkbox => checkbox.value);
 
     // Filter recipes that include AT LEAST 2 selected ingredients
+/*    
 const matchedRecipes = recipes.filter(recipe => {
     const matchingIngredients = selectedIngredients.filter(ingredient => 
         recipe.ingredients.includes(ingredient)
@@ -116,8 +123,8 @@ if (matchedRecipes.length > 0) {
     `).join('');
 } else {
     recipeResults.innerHTML = '<p>No recipes found with at least 2 matching ingredients.</p>';
-}
-/*
+} */
+
     // Filter recipes that include ANY selected ingredient (OR condition)
     const matchedRecipes = recipes.filter(recipe =>
         selectedIngredients.some(ingredient => 
@@ -138,6 +145,6 @@ if (matchedRecipes.length > 0) {
         `).join('');
     } else {
         recipeResults.innerHTML = '<p>No recipes found. Try different ingredients!</p>';
-    } */
+    } 
 });
 });

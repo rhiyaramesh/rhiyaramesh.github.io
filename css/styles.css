@@ -1,9 +1,27 @@
 /* styles.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
     text-align: center;
     background-color: #f0f8ff;
     padding: 50px;
+    font-size: 19px;
+}
+input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #ffe4e1;
+  border: 2px solid #F4C7C3;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #F4C7C3;
+  background-image: url("../images/knife.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 20px;
 }
 h1 {
     color: #008000;
