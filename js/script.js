@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             name: "Salad",
-            ingredients: ["Lettuce", "Mixed Greens", "Carrots", "Basil/herbs", "Olive oil", "Lemon Juice", "Honey/maple syrup", "Pepper", "Parmesan cheese"],
+            ingredients: ["Lettuce", "Mixed Greens", "Carrots", "Basil/herbs", "Olive oil", "lemon juice", "Honey/maple syrup", "Pepper", "Parmesan cheese"],
             link: "Salad.html",
             image: "../images/salad.jpeg"
         },

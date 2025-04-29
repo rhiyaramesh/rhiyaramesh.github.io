@@ -255,3 +255,25 @@ img {
   box-shadow: 0 0 10px #ffb6c1, 0 0 20px #ffb6c1; /* soft glow */
   transform: scale(1.05); /* little zoom */
 }
+.works-cited {
+            margin-top: 2em;
+            text-align: left;
+        }
+        .citation {
+            margin-bottom: 1em;
+            text-indent: -2em;
+            padding-left: 2em;
+            text-align: left;
+            page-break-inside: avoid;
+            font-family: "Times New Roman", Times, serif;
+            line-height: 1.5;
+            margin: 2em auto;
+            max-width: 800px;
+            padding: 0 1em;
+        }
+        .citation i {
+            font-style: italic;
+        }
+        .accessed-note {
+            font-style: norm
+        }
